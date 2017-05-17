@@ -1,0 +1,6 @@
+{
+  "mongodb-locations": {
+    "type": "mongodb",
+    "plan": "100"
+  }
+}

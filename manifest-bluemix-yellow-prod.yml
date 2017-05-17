@@ -1,0 +1,5 @@
+---
+inherit: manifest-base.yml
+
+properties:
+  host: iw-locations-node

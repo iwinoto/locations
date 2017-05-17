@@ -1,0 +1,18 @@
+---
+inherit: ./manifest-base.yml
+
+properties:
+  mongo-service-label: mongodb
+  mongo-service-provider: core
+  mongo-service-version: '2.2'
+  mongo-service-plan: '100'
+
+env:
+  LOCATIONS_LOGIN_REQUIRED: true
+
+services:
+  w3SSOService-locations:
+    label: w3SSOService
+    provider: sweeden@au1.ibm.com
+    version: '1.0'
+    plan: free

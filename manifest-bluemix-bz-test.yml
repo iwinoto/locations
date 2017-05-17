@@ -1,0 +1,12 @@
+---
+inherit: ./manifest-bluemix-bz-base.yml
+
+properties:
+  app-host: iw-${name}-test
+
+services:
+  Arachni-locations:
+    label: Arachni
+    provider: jStart
+    version: '0.1'
+    plan: free

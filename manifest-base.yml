@@ -1,0 +1,17 @@
+---
+path: .
+
+env:
+  LOCATIONS_LOGIN_REQUIRED: "false"
+
+services:
+- mongodb-locations
+
+applications:
+- name: locations
+  memory: 256M
+  instances: 1
+  host: iw-locations-dev
+  domain: mybluemix.net
+  command: node lib/locations.js start
+  

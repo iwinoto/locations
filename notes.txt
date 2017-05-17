@@ -1,0 +1,9 @@
+* locations.js
+Line 77 error is thrown re join of string when trying to start in BlueMix.
+Check the mongo credentials for hostname and port.
+Does not occur in node v 0.8.x
+Change package.json to set node version dependency to 0.8
+
+Use grunt for build because this is more common for js applications and BlueMix DevOps supports Grunt builder.
+DevOps pipeline can then be used to run grunt for build and push to BlueMix.
+

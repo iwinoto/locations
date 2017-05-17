@@ -1,0 +1,26 @@
+{
+  "public-demo": {
+    "prefix": "iw",
+    "target": "api.ng.bluemix.net",
+    "space": "demo",
+    "organisation": "iwinoto@au1.ibm.com"
+  },
+  "public-dev": {
+    "prefix": "iw",
+    "target": "api.ng.bluemix.net",
+    "space": "dev",
+    "organisation": "iwinoto@au1.ibm.com"
+  },
+  "public-test": {
+    "prefix": "iw",
+    "target": "api.ng.bluemix.net",
+    "space": "test",
+    "organisation": "iwinoto@au1.ibm.com"
+  },
+  "public-prod": {
+    "prefix": "iw",
+    "target": "api.ng.bluemix.net",
+    "space": "prod",
+    "organisation": "iwinoto@au1.ibm.com"
+  }
+}
